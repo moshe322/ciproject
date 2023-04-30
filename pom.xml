@@ -6,6 +6,10 @@
   <version>2.0</version>
   <packaging>pom</packaging>
   <name>Simple Web Chapter Parent Project</name>
+  <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
   <modules>
     <module>simple-webapp</module>
   </modules>
